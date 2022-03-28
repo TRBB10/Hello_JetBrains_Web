@@ -16,6 +16,7 @@ namespace Hello_JetBrains_Web.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            ViewBag.Message2 = "FEATURE 1";
             return View();
         }
 
